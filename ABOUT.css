@@ -1,0 +1,176 @@
+/* top */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.Home {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.Home:hover {
+    background: linear-gradient(to bottom,black 0%, black 33%, black 66%, black 82%, red 100%);
+}
+
+.DropdownMenu {
+    position: relative;
+    float: left;
+    background-color: black;
+}
+
+.Menu {
+    position: absolute;
+    float: left;
+    background-color: black;
+    padding-right: 1413.69px;
+    padding-top: 15.6px;
+    padding-bottom: 16px;
+}
+
+.DropdownMenu-Content {
+    margin-top: 9px;
+    display: none;
+    position: absolute;
+    background-color: darkgray;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.DropdownMenu-Content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.DropdownMenu-Content a:hover {background-color: #ddd;}
+
+.DropdownMenu:hover .DropdownMenu-Content {display: block;}
+
+/* left */
+.LeftHeader {
+    position: relative;
+    float: left;
+    margin-left: 150px;
+    padding-top: 50px;
+}
+
+.LeftHeader .About a{
+    color: blue;
+    text-decoration: underline;
+}
+
+.LeftHeader .links a{
+    text-decoration: none;
+    color: darkgray;
+}
+
+.LeftHeader .links a:hover{
+    color: white;
+}
+
+.LeftHeader h4{
+    color: white;
+}
+
+.LeftHeader p{
+    color: white;
+}
+
+/* right */
+.RightHeader {
+    padding-top: 50px;
+    margin-bottom: 30px;
+    padding-right: 100px;
+    float: right;
+    padding-left: 50px;
+    background-color: black;
+}
+
+.RightHeader h1{
+    color: darkgray;
+}
+
+.RightHeader h2{
+    color: darkgray;
+}
+.RightHeader h3{
+    color: darkgray;
+}
+.RightHeader h4{
+    color: darkgray;
+}
+.RightHeader h5{
+    color: darkgray;
+}
+
+.RightHeader h6{
+    color: darkgray;
+}
+
+.RightHeader p{
+    width:920.6px;
+    padding-top:5px;
+    word-wrap: break-word;
+    color: darkgray;
+}
+
+.RightHeader .box{
+    background-color: rgb(65, 65, 65);
+    padding: 20px;
+}
+
+.list li {
+    width:920.6px;
+    padding-top:5px;
+    word-wrap: break-word;
+    color: darkgray;
+}
+
+.list li a {
+    color: blue;
+    text-decoration: underline;
+}
+
+.RightHeader .other a {
+    color: blue;
+    text-decoration: underline;
+}
+
+/* bottom */
+.bottom {
+    margin-right: 600px;
+    float: right;
+}
+
+.Social{
+    text-align: center;
+    color: darkgray;
+}
+
+.Social a{
+    color: darkgray;
+    text-decoration: none;
+}
+
+.Social a:hover{
+    color: white;
+}
+
+.Copyright{
+    text-align: center;
+    color: darkgray;
+}
+
+.Copyright a{
+    color: darkgray;
+}
