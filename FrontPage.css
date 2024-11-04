@@ -31,7 +31,7 @@ html {
     position: absolute;
     float: left;
     background-color: black;
-    padding-right: 1413.69px;
+    width: 100%;
     padding-top: 15.6px;
     padding-bottom: 16px;
 }
@@ -118,7 +118,7 @@ html {
 }
 
 .RightHeader p{
-    width:920.6px;
+    width: 100%;
     padding-top:5px;
     word-wrap: break-word;
     color: darkgray;
@@ -130,7 +130,7 @@ html {
 }
 
 .list li {
-    width:920.6px;
+    width: 100%;
     padding-top:5px;
     word-wrap: break-word;
     color: darkgray;
